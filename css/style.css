@@ -46,29 +46,21 @@ body {
 }
 
 
-#footer {
-  margin-top: 5px;
-  height: 30px;
-  background-color: #000;
-  color: #fff;
-  border-radius: 10px 10px 10px 10px;
-}
 
-#footer p {
-  text-align: center;
-  padding: 10px;
-}
 
 /* frist page */
 
 /* Second page */
 
-.fundamentals {
+.tricks {
   text-align: center;
   margin-top: 50px;
-  border-bottom: 5px solid #000;
   padding-bottom: 70px;
-  height: 100px;
+  height: 80px;
+}
+
+.title1, .title2{
+  text-align: center;
 }
 
 .bnt-t {
@@ -80,8 +72,4 @@ body {
   border-radius: 10px 10px 10px 10px;
   background-color: #000;
   color: #fff;
-}
-
-.obs {
-  border-bottom: none;
 }
