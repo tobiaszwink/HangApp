@@ -1,5 +1,12 @@
+@font-face {
+
+      font-family: "Orator Std";
+      src: url("../fonts/OratorStd.ttf") format("truetype");
+
+      }
+
 body {
-  font-family: Orator Std, sans-serif;
+  font-family: "Orator Std", sans-serif;
 }
 
 .container {
@@ -17,9 +24,18 @@ body {
 }
 
 #header h1 {
+  margin: 0 0 20px 0 ;
   font-size: 50px;
   padding-top: 10px;
   text-align: center;
+}
+
+#header a {
+  text-decoration: none;
+}
+
+#header a:visited {
+  color: #fff;
 }
 
 .section {
@@ -48,7 +64,7 @@ body {
 
 
 
-/* frist page */
+/* </frist page> */
 
 /* Second page */
 
@@ -59,8 +75,8 @@ body {
   height: 80px;
 }
 
-.title1, .title2{
-  text-align: center;
+.tricks h2 {
+  margin: 100px 0 0 0;
 }
 
 .bnt-t {
@@ -72,4 +88,25 @@ body {
   border-radius: 10px 10px 10px 10px;
   background-color: #000;
   color: #fff;
+}
+
+/* how to make page */
+
+h2 {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.steps {
+  margin: 0 0 150px 0;
+}
+
+.steps img {
+  margin-right: 10px;
+  float: left;
+}
+
+.steps p {
+  margin-top: 60px;
+  text-align: justify;
 }
