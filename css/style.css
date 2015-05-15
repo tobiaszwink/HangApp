@@ -38,8 +38,20 @@ body {
   color: #fff;
 }
 
+#footer {
+  background-color: #000;
+  margin-top: 40px;
+}
+
+#footer p {
+  text-align: center;
+  color: #fff;
+}
+
 .section {
-  background-image: url("../img/skateboard.jpg");
+  background-size: 100%;
+  background-image: url("../img/mike.gif");
+  background-repeat: none;
   width: 960px;
   height: 450px;
 }
