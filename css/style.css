@@ -88,19 +88,39 @@ body {
 
 .tricks {
   text-align: center;
-  margin-top: 50px;
-  padding-bottom: 70px;
+  margin-top: 40px;
   height: 80px;
 }
 
-.tricks h2 {
-  margin: 100px 0 0 0;
+#manobras-iniciais {
+  display: none;
 }
+
+#manobras-iniciais2 {
+  display: none;
+  transition: 2s;
+}
+
+.h2 {
+  margin-top: 20px;
+}
+
 
 .bnt-t {
   cursor: pointer;
-  margin: 30px 0 0 30px;
+  margin: 0;
   width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #444;
+  color: #fff;
+}
+
+.bnt-t2 {
+  cursor: pointer;
+  margin: 0;
+  width: 200px;
   height: 40px;
   border: none;
   border-radius: 10px 10px 10px 10px;
@@ -108,6 +128,17 @@ body {
   color: #fff;
 }
 
+.bnt-t2:hover{
+  color: #000;
+  cursor: pointer;
+  margin: 0;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #fff;
+  transition: 0.8s;
+}
 /* how to to */
 
 h2 {
