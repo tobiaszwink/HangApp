@@ -1,107 +1,108 @@
-@media screen and (min-width: 340px) and (max-width: 1080px) {
+@media only screen and (max-width : 980px) {
+
+  @font-face {
+
+      font-family: "Orator Std";
+      src: url("../fonts/OratorStd.ttf") format("truetype");
+
+      }
+
   body {
     font-family: Orator Std, sans-serif;
   }
 
-  .container {
-    width: 100%;
-    margin: 0 auto;
-  }
-
   #header {
-    width: 100%;
-    height: 10%;
-    background-color: #fff;
-    color: #000;
+    width: 960px;
+    height: 200px;
+    font-size: 5em;
+    margin: 0px 0 5px 0;
   }
 
-  #header h1 {
-    font-size: 11em;
-    margin-bottom: 0;
+  .back {
+    margin-top: 10px;
   }
 
-  .section {
-    background-size: 100%;
-    border-radius: 3% 3% 3% 3%;
-    margin: 0 auto;
-    background-image: url("../img/mike.gif");
-    background-repeat: no-repeat;
-  }
-
-  .bnt {
-    font-size: 6em;
-    color: #000;
-    position: relative;
-    width: 50%;
-    height: 30%;
-    margin: 50% 0 0 25%;
-  }
-
-  #footer {
-    display: none;
-  }
-
-
-  /* end frist page */
-
-  /* <second page> */
-
-  .tricks {
-    margin-top: 0;
-    margin-right: 60px;
-  }
-
-  .tricks h2 {
-    font-size: 6em;
-    margin: 3% 0 0 0;
-  }
-
-  .bnt-t {
-    width: 100%;
-    height: 100px;
+  #bnt-enter {
+    margin-top: 10px;
     font-size: 3em;
   }
 
-  /* </second page> */
-
-  /* ollie page */
-
-  #header h1 {
-    color: #000;
-    font-size: 10em;
+  #bnt-enter:hover {
+    margin-top: 10px;
+    font-size: 3em;
   }
 
-  /* end. header */
-
-  /* how to do */
-
-  .section-t h2 {
-    font-size: 5em;
-  }
-
-  .steps {
+  .sedd {
+    margin-top: 600px;
     text-align: center;
+    font-size: 3em;
   }
 
-  .steps p {
-    width: 80%;
-    margin: 8% auto 0 auto;
-    text-align: justify;
+  /* end index */
+
+  .bnt-t2  {
+    width: 100%;
+    height: 130px;
+    font-size: 1em;
+    border: 1px solid #000;
+    color: #000;
+    background-color: #fff;
   }
 
-  .steps img {
-    float: none;
-    margin: 0 auto;
-    width: 80%;
-    height: 34%;
+  .bnt-t2:hover  {
+    width: 100%;
+    height: 130px;
+    font-size: 1em;
+    border: 1px solid #000;
+    color: #000;
+    background-color: #fff;
   }
 
-  .video h3 {
+  .bnt-t {
+    width: 40%;
+    height: 100%;
+    font-size: 2em;
+    border: 1px solid #000;
+    color: #000;
+    background-color: #fff;
+  }
+
+  /* end tricks page */
+
+  h2 {
+  margin-top: 70px;
+  font-size: 4em;
   text-align: center;
   }
 
-.video iframe {
-  width: 70%;
-  height: 45%;
-  margin-right: 20%;
+
+  .steps h3 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .steps img {
+    width: 100%;
+    margin-right: 10px;
+    display: block;
+  }
+
+  .steps p {
+    float: right;
+    margin-top: 60px;
+    text-align: justify;
+  }
+
+  .video h3 {
+    text-align: center;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+  }
+
+
+
 }
