@@ -11,6 +11,9 @@
     font-family: Orator Std, sans-serif;
   }
 
+  .container {
+  }
+
   #header {
     width: 960px;
     height: 200px;
@@ -18,8 +21,9 @@
     margin: 0px 0 5px 0;
   }
 
-  .back {
-    margin-top: 10px;
+  .back video {
+    width: 640px;
+    height: 320px;
   }
 
   #bnt-enter {
