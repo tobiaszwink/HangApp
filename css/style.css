@@ -39,7 +39,7 @@ body {
 
 #bnt-enter {
   position: absolute;
-  left: 185px;
+  left: 193px;
   bottom: -30px;
   font-size: 15px;
   color: #000;
@@ -55,6 +55,7 @@ body {
 
 #bnt-enter:hover {
   bottom: -30px;
+  left: 193px;
   position: absolute;
   font-size: 25px;
   color: #000;
