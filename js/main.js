@@ -1,3 +1,4 @@
+
 function surgi (display) {
   document.getElementById("manobras-iniciais").style.display = display;
 }
