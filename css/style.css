@@ -126,6 +126,16 @@ body {
   border-radius: 10px;
 }
 
+.controls {
+  height: 385px;
+  width: 165px;
+  float: left;
+}
+
+.controls:nth-child(1n+3) {
+  float: right;
+}
+
 #slide {
   background: #000;
   width: 600px;
@@ -133,6 +143,7 @@ body {
   margin: 0 auto;
   overflow: hidden;
   margin-top: 10px;
+  float: left;
 }
 
 
@@ -145,6 +156,36 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.slide {
+  height: 370px;
+}
+
+.left-arrow {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  border-right: 70px solid #818181;
+  opacity: 0.5;
+  margin: 50% 0 0 40%;
+}
+
+.right-arrow {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  border-left: 70px solid #818181;
+  opacity: 0.5;
+  margin: 50% 40% 0 0;
 }
 
 .tricks {
